@@ -84,7 +84,7 @@ def generate_timeline(events: list[Event]):
     total_days = (end_date - start_date).days
     width = 500
     height = total_days * 20 + 100
-    padding = 50
+    padding = 20
     line_x = 100
     biggest_x = 0
 

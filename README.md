@@ -10,6 +10,43 @@ docker compose up -d
 
 The service will be available at http://localhost:3000
 
+## Example
+
+Input events:
+```json
+[
+  {
+    "title": "Project Kickoff Meeting",
+    "date": "2024-03-01 09:00",
+    "color": "blue"
+  },
+  {
+    "title": "Design Review",
+    "date": "2024-03-01 14:30",
+    "color": "purple"
+  },
+  {
+    "title": "Client Presentation",
+    "date": "2024-03-03 11:00",
+    "color": "green"
+  },
+  {
+    "title": "Team Workshop",
+    "date": "2024-03-07 13:00",
+    "color": "orange"
+  },
+  {
+    "title": "Project Deadline",
+    "date": "2024-03-15 17:00",
+    "color": "red"
+  }
+]
+```
+
+Output:
+
+![Example Timeline](example_output.svg)
+
 ## Local Development
 
 Install dependencies:

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="240" viewBox="0   0   5 0 0   2 4 0">
+<defs>
+</defs>
+<circle cx="100" cy="20" r="5" fill="white" stroke="black" center="0.5" stroke-width="2"/>
+<text x="85" y="20" font-size="14" text-anchor="end" fill="black" font-family="Helvetica" dominant-baseline="central">01.03.2024</text>
+<text x="115" y="20" font-size="14" text-anchor="start" fill="blue" font-family="Helvetica" dominant-baseline="central">09:00 - Project Kickoff Meeting</text>
+<path d="M100,20 L100,40" stroke="black" stroke-width="2"/>
+<text x="115" y="40" font-size="14" text-anchor="start" fill="purple" font-family="Helvetica" dominant-baseline="central">14:30 - Design Review</text>
+<path d="M100,40 L100,80" stroke="black" stroke-width="2"/>
+<circle cx="100" cy="20" r="5" fill="white" stroke="black" center="0.5" stroke-width="2"/>
+<text x="85" y="80" font-size="14" text-anchor="end" fill="black" font-family="Helvetica" dominant-baseline="central">03.03.2024</text>
+<text x="115" y="80" font-size="14" text-anchor="start" fill="green" font-family="Helvetica" dominant-baseline="central">11:00 - Client Presentation</text>
+<path d="M100,80 L100,100" stroke="black" stroke-width="2"/>
+<path d="M100,100 L100,120" stroke="black" stroke-width="2" stroke-dasharray="2,2"/>
+<text x="90" y="110" font-size="14" text-anchor="end" fill="black" font-family="Helvetica" dominant-baseline="central">4d</text>
+<path d="M100,120 L100,140" stroke="black" stroke-width="2"/>
+<circle cx="100" cy="80" r="5" fill="white" stroke="black" center="0.5" stroke-width="2"/>
+<text x="85" y="140" font-size="14" text-anchor="end" fill="black" font-family="Helvetica" dominant-baseline="central">07.03.2024</text>
+<text x="115" y="140" font-size="14" text-anchor="start" fill="orange" font-family="Helvetica" dominant-baseline="central">13:00 - Team Workshop</text>
+<path d="M100,140 L100,160" stroke="black" stroke-width="2"/>
+<path d="M100,160 L100,180" stroke="black" stroke-width="2" stroke-dasharray="2,2"/>
+<text x="90" y="170" font-size="14" text-anchor="end" fill="black" font-family="Helvetica" dominant-baseline="central">8d</text>
+<path d="M100,180 L100,200" stroke="black" stroke-width="2"/>
+<circle cx="100" cy="140" r="5" fill="white" stroke="black" center="0.5" stroke-width="2"/>
+<text x="85" y="200" font-size="14" text-anchor="end" fill="black" font-family="Helvetica" dominant-baseline="central">15.03.2024</text>
+<text x="115" y="200" font-size="14" text-anchor="start" fill="red" font-family="Helvetica" dominant-baseline="central">17:00 - Project Deadline</text>
+<circle cx="100" cy="200" r="5" fill="white" stroke="black" center="0.5" stroke-width="2"/>
+</svg>

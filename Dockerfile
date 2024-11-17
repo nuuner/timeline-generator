@@ -12,6 +12,6 @@ RUN poetry install --no-dev
 
 COPY src/ ./src/
 
-EXPOSE 80
+EXPOSE 3000
 
-CMD ["poetry", "run", "uvicorn", "src.timeline_generator.main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["poetry", "run", "uvicorn", "src.timeline_generator.main:app", "--host", "0.0.0.0", "--port", "3000"]

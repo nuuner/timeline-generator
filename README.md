@@ -8,7 +8,7 @@ A FastAPI service that generates minimalistic vertical SVG timelines from event 
 docker compose up -d
 ```
 
-The service will be available at http://localhost
+The service will be available at http://localhost:3000
 
 ## Local Development
 
@@ -27,13 +27,13 @@ poetry run uvicorn src.timeline_generator.main:app --reload
 Generate a timeline by making a GET request to `/timeline.svg` with your events as a JSON string:
 
 ```bash
-curl "http://localhost:8000/timeline.svg?events=[{\"title\":\"Event 1\",\"date\":\"2024-02-15 09:30\",\"color\":\"blue\"}]" > timeline.svg
+curl "http://localhost:3000/timeline.svg?events=[{\"title\":\"Event 1\",\"date\":\"2024-02-15 09:30\",\"color\":\"blue\"}]" > timeline.svg
 ```
 
 ## API Documentation
 
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
+- Swagger UI: http://localhost:3000/docs
+- ReDoc: http://localhost:3000/redoc
 
 ## License
 
